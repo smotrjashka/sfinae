@@ -29,9 +29,8 @@ May contains next calls:
 
 ## Integration
 
-Добавить в `.travis.yml` на этапе сборки вызов `doxygen` и публикацию html-версии документации
-на github-pages. Подробное описание на странице:
-https://docs.travis-ci.com/user/deployment/pages/
+Добавить на этапе сборки вызов `doxygen` и публикацию html-версии документации
+на github-pages. 
 Включить в репозиторий файл `Doxyfile` с включенными опциями `HAVE_DOT` и `EXTRACT_ALL`
 
 ## Additional requirements
