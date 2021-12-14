@@ -1,1 +1,5 @@
 
+EXTRACT_ALL            = YES
+
+HAVE_DOT               = YES
+
