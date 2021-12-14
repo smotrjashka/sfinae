@@ -9,12 +9,12 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(print_ip main.cpp sfinae_templ.h)
 
 set_target_properties(
-        allocator PROPERTIES
+        print_ip PROPERTIES
         CXX_STANDARD 17
         CXX_STANDARD_REQUIRED ON
 )
 
-install(TARGETS allocator RUNTIME DESTINATION bin)
+install(TARGETS print_ip RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 
